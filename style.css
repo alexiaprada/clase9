@@ -7,8 +7,20 @@ h1{
   font-size: 1cm;
   color: #c83349;   
 }
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+body{
+  text-align: center;
+}
+main{
+  width: 600px;
+  margin: auto;
+}
 div{
-  
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   border: 5px outset #00A4BD;   
@@ -18,15 +30,12 @@ div{
 
 
 }
-img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-}
-body{
-  text-align: center;
-}
-main{
 
-  margin: auto;}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+ 
 }
